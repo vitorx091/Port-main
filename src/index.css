@@ -8,6 +8,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+::-webkit-scrollbar-track-piece{
+  scroll-margin: 2px;
 }
 
 code {

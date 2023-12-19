@@ -1,0 +1,65 @@
+nav{
+    margin-right: 42px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #31303094;
+    border-radius: 1px 1px 24px 24px;
+    transition: background-color 0.3s ease;
+    z-index: 999; /* Certifique-se de que o menu está acima de outros elementos */
+  }
+
+.Container-Menu p{
+    margin-left: 2em;
+    font-size: 29px;
+    font-family: auto;
+}
+  
+
+.Container-menu{
+    width: 100%;
+    background: linear-gradient(79.63deg, rgb(22, 22, 22) 12.08%, rgb(30, 58, 138) 216.5%);
+    box-shadow: #292727 2px 0px 58px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Container-menu li{
+    font-size: 19px;
+    font-family:monospace ;
+    padding: 14px;
+}
+.Container-menu a{
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(116, 29, 231);
+}
+.Container-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .Container-Menu{
+        display: flex;
+        box-shadow: none;
+        justify-content: flex-start;
+    }
+
+    .Container-menu{
+        display: none ;
+        margin-right: 0;
+    }
+}

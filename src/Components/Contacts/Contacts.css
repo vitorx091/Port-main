@@ -1,0 +1,36 @@
+.home-hero__socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 24%;
+    left: 93%;
+    /* transform: translateY(-50%);*/
+    background: linear-gradient(267.93deg, rgb(1, 179, 255) -42.09%, rgb(23, 25, 31) 108.97%);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    padding: 0.5rem;
+}
+
+.home-hero__social {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.home-hero__social:hover {
+    background-color: #1b18bb71;
+}
+svg {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+@media screen and (max-width: 768px){
+    .home-hero__social{
+        display: none;
+    }
+    .home-hero__socials{
+        display: none;
+    }
+}

@@ -1,0 +1,26 @@
+
+.skills-skill {
+    padding: 1rem 2rem;
+    margin: 1.1em;
+    background: rgba(153, 153, 153, .2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #c1c0c0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: 'vertical-align: inherit';
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .skill{
+        display: flex;
+        justify-content: center;
+    }
+    .title-Skill{
+        margin-top: 1em ;
+    }
+}
